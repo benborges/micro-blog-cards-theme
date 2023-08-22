@@ -58,7 +58,25 @@
   <article class="post-content e-content">
 	{{ .Content }}
   </article>
-
+<h2 id="currently-having-a-bug-with-some-of-the-sources">If you landed on a old post without Link to the source, search below</h2>
+<blockquote>
+<p>For some posts, the link to the source is not getting posted, I'm working on it !
+Until this is fixed you can always look <a href="https://rss.osintukraine.com/i/?a=normal&get=c_2">here</a> or <a href="https://www.inoreader.com/stream/user/1005324229/tag/News/view/html?cs=m&sb=y">here</a></p>
+</blockquote>
+<h2 id="ukrainian">Зараз є помилка з деякими посиланнями на джерела</h2>
+<blockquote>
+<p>У деяких публікаціях посилання на джерело не розміщується, я працюю над цим! Поки це не вирішено, ви завжди можете дивитися <a href="https://rss-osintukraine-com.translate.goog/i/?a=normal&get=c_2&_x_tr_sl=auto&_x_tr_tl=uk&_x_tr_hl=fr&_x_tr_pto=wapp">тут</a> або <a href="https://www-inoreader-com.translate.goog/stream/user/1005324229/tag/News/view/html?cs=m&sb=y&_x_tr_sl=auto&_x_tr_tl=uk&_x_tr_hl=fr&_x_tr_pto=wapp">тут</a></p>
+</blockquote>
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('cyberbenb', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+</div>
 </div>
 {{ if eq .Type "post"}}
     {{ if or (templates.Exists "partials/reply-by-email.html") (templates.Exists "partials/conversation-link.html") (.Site.Params.showTinylyticsKudos) }}
